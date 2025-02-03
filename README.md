@@ -1,8 +1,8 @@
-# Website Health Checker
+# WebStetho
 
 ## About
 
-The **Website Health Checker** is a simple command-line tool created in Go to check the health (online or offline status) of a list of websites. This tool also allows for continuous monitoring of websites, updating every 10 seconds, and displays the status in a formatted table. It is designed to automatically handle URLs and adds `https://` if no protocol is provided by the user.
+The **WebStetho** is a simple command-line tool created in Go to check the health (online or offline status) of a list of websites. This tool also allows for continuous monitoring of websites, updating every 10 seconds, and displays the status in a formatted table. It is designed to automatically handle URLs and adds `https://` if no protocol is provided by the user.
 
 I created this project to learn more about Go programming, working with external libraries, and building interactive CLI applications.
 
@@ -26,8 +26,8 @@ I created this project to learn more about Go programming, working with external
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/website-health-checker.git
-   cd website-health-checker
+   git clone https://github.com/your-username/WebStetho.git
+   cd WebStetho
 
 ## Installation
 
@@ -41,7 +41,7 @@ I created this project to learn more about Go programming, working with external
 ## Run the application
 
 After building, you can run the program:
-./website-health-checker
+./WebStetho
 
 - **Enter Website URLs**: You will be prompted to enter a list of URLs (comma-separated). You can enter them in the format `https://google.com`, `https://github.com`, or just `google.com` (the protocol will be added automatically).
 
@@ -64,7 +64,7 @@ Enable continuous monitoring? (Yes/No): Yes
 
 🔄 Monitoring enabled... Checking every 10 seconds.
 
-🌐 Website Health Checker
+🌐 WebStetho
 -------------------------------------------
 | # | Website            | Status   | Response Time |
 -------------------------------------------
@@ -91,4 +91,4 @@ Feel free to fork this repository, open issues, and submit pull requests. Contri
 
 ## Author
 
-Emin Gani# Website-health-Checker
+Emin Gani# WebStetho
