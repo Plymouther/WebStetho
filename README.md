@@ -26,7 +26,7 @@ I created this project to learn more about Go programming, working with external
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/WebStetho.git
+   git clone https://github.com/Plymouther/WebStetho.git
    cd WebStetho
 
 ## Installation
@@ -64,13 +64,13 @@ Enable continuous monitoring? (Yes/No): Yes
 
 🔄 Monitoring enabled... Checking every 10 seconds.
 
-🌐 WebStetho
--------------------------------------------
-| # | Website            | Status   | Response Time |
--------------------------------------------
-| 1 | https://google.com  | ONLINE ✅ | 134ms         |
-| 2 | https://github.com  | ONLINE ✅ | 200ms         |
--------------------------------------------
+🌐 **WebStetho**
+
+| #  | Website               | Status       | Response Time |
+|----|-----------------------|--------------|---------------|
+| 1  | [https://google.com](https://google.com) | ONLINE ✅     | 134ms         |
+| 2  | [https://github.com](https://github.com) | ONLINE ✅     | 200ms   
+
 
 
 The program will continue checking every 10 seconds and update the table with the latest status and response times.
