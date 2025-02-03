@@ -60,19 +60,18 @@ The program will display a table with the following columns:
 
 When you run the program, it might look something like this:
 
-Enter Website URLs (comma-separated): google.com, github.com
-
 Enable continuous monitoring? (Yes/No): Yes
 
 🔄 Monitoring enabled... Checking every 10 seconds.
 
 🌐 Website Health Checker
 -------------------------------------------
-| # | Website         | Status   | Response Time |
+| # | Website            | Status   | Response Time |
 -------------------------------------------
-| 1 | https://google.com | ONLINE ✅ | 134ms        |
-| 2 | https://github.com | ONLINE ✅ | 200ms        |
+| 1 | https://google.com  | ONLINE ✅ | 134ms         |
+| 2 | https://github.com  | ONLINE ✅ | 200ms         |
 -------------------------------------------
+
 
 The program will continue checking every 10 seconds and update the table with the latest status and response times.
 
